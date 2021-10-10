@@ -1,0 +1,164 @@
+*{
+    margin:0px;
+    padding:0px;
+	@font-face {
+		font-family: 'chasy';
+		src: url("C:\Users\miche\OneDrive\Documentos\Caligrafia\chasy");
+	}
+	@font-face{
+		font-family: 'Bell MT';
+		src: url('Bell MT.ttf') format('truetype');
+	 }
+
+	 @font-face {
+		 font-family: 'Baskerville Old Face';
+		src: url('Baskerville Old Face.ttf')format('truetype');
+	 }
+
+	
+	 }
+   
+   
+   body{
+       background: black;
+       font-family: Sagona Book;
+   }
+   
+   #container{
+     width: 100%;
+	 
+     margin: 0px auto;
+     border: 1px solid black;
+     
+   }
+   
+   header{
+       background: #5a3216;
+       height: 100px;
+       width: 100%;
+       margin: 0px;
+       text-align: center;
+       line-height: 100px;
+       color: white;
+       /*border-bottom: 3px solid black;*/
+       font-family: 'chasy';
+       font-size: 40px;
+       border: 1px solid black;
+   }
+   
+   nav{
+     
+     height: 50px;
+     /*border-bottom: 1px solid black;*/
+     margin: 0px auto;
+   }
+   
+   nav ul li{
+       /*float:left;*/
+       list-style: none;
+       margin: 10px;
+       line-height: 30px;
+       font-size: 30px;
+	   padding: 20px;
+
+   
+   }
+   
+   .clearfix{
+       clear:both;
+   }
+   
+   #content{
+       float:right;
+       width: calc(80% - 80px);
+       min-height: 575px;
+       background:#895d2f  ;
+       padding: 40px;
+       
+   }
+   
+   /*#8FBC8F*/
+   .article{
+       color: white;
+       margin-top:15px;
+       margin-bottom: 15px;
+       font-size: 25px;
+       border: 1px solid black;
+       padding: 40px;
+	   font-family: 'Baskerville Old Face';
+   
+   }
+   
+   aside{
+       float:right;
+       width: calc(20% - 20px);
+       background: #321608;
+       min-height: 635px;
+       padding-right: 10px;
+       padding-left: 10px;
+       padding-top: 20px; 
+       font-family: Monotype Corsiva;
+       font-size: 40px;
+       /*font-size: 30px;*/
+   
+   
+   }
+   
+   footer{
+       background: #c58f4c;
+       color:white;
+       text-align: center;
+       height: 50px;
+       line-height: 50px;
+   }
+   
+   .article1{
+       color: white;
+       margin-top:15px;
+       margin-bottom: 15px;
+       font-size: 25px;
+       border: 2px solid black;
+       text-align: justify;
+       padding: 40px;
+	   font-family: 'Baskerville Old Face';
+   }
+   
+   .input{
+    width: 30%;
+    height: 20px;
+	
+   
+   }
+   
+   .input1{
+	   
+       width: 10%;
+    height: 35px;
+    font-family: 'Bell MT' ;
+    font-size: 20px;
+    background-color:  #efce69;
+	
+   
+   }
+
+.nav1{
+	width: 300px;
+	height: 50px;
+}
+
+form{
+	   height: 62px;
+	   width: 100%;
+	  /* padding: 2px;*/
+	 }
+   
+.navega{
+	color: white;
+	font-family: 'Bell MT';
+	font-size: 30px;
+	padding: 2px;
+}
+	
+   
+   
+   
